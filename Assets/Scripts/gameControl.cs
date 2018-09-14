@@ -8,6 +8,7 @@ public class gameControl : MonoBehaviour {
     public GameObject GameOverText;
     public bool gameOver = false;
     public static gameControl instance;
+    public float scrollSpeed = 1.5f;
 	
 	void Awake () {
         if ( instance == null )
