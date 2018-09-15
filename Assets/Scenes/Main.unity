@@ -531,6 +531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameOverText: {fileID: 1964330577}
   gameOver: 0
+  scoreText: {fileID: 1909314486}
   scrollSpeed: 1.5
 --- !u!4 &917936046
 Transform:
