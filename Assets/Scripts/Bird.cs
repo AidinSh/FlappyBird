@@ -21,7 +21,7 @@ public class Bird : MonoBehaviour {
     {
 	    if ( isDead == false )
         {
-           if ( Input.GetKeyDown("space") )
+           if ( Input.touchCount > 0 )
             {
                 bird.velocity = Vector2.zero;
                 bird.AddForce (new Vector2(0, upForce));

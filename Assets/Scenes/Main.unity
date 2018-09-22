@@ -370,7 +370,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.13, y: 0.67}
+    oldSize: {x: 1.13, y: 0.69}
     newSize: {x: 1.13, y: 0.67}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1043,6 +1043,7 @@ GameObject:
   - component: {fileID: 2088658435}
   - component: {fileID: 2088658434}
   - component: {fileID: 2088658433}
+  - component: {fileID: 2088658436}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1110,6 +1111,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2088658436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088658432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9c4406e18c8f346a171bd91fe00b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2098754397
 GameObject:
   m_ObjectHideFlags: 0

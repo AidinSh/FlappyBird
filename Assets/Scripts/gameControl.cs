@@ -29,7 +29,7 @@ public class gameControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-	    if ( gameOver == true && Input.GetKeyDown("space"))
+	    if ( gameOver == true && Input.touchCount > 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }	
@@ -47,5 +47,12 @@ public class gameControl : MonoBehaviour {
     {
         GameOverText.SetActive(true);
         gameOver = true;
+    }
+    public void Back()
+    {
+        if ( Input.GetKeyDown(KeyCode.Escape) == true)
+        {
+            SceneManager.LoadScene("Menu Scene");
+        }
     }
 }
